@@ -1,0 +1,89 @@
+.bg-container {
+  background-color: rgb(5, 24, 40);
+  height: 91vh;
+  margin: 0px;
+  padding: 30px;
+}
+
+.undo-button {
+  background-color: cornflowerblue;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.redo-button {
+  background-color: cornflowerblue;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.middle-part {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.new-text-cont {
+  width: 40%;
+  color: #ffffff;
+  border: #ffffff 1px solid;
+  height: 70vh;
+  padding: 25px;
+  margin-right: 10%;
+}
+
+.original-text:hover {
+  /* transform: translate(20px, -20px);
+  transition: transform 0.3s ease-out; */
+}
+
+.text-styling-cont {
+  color: #ffffff;
+}
+
+.font-family {
+  font-size: 20px;
+}
+
+.font-picker {
+  height: 30px;
+  margin-left: 20px;
+}
+
+.color {
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.color-picker {
+  height: 30px;
+  width: 100px;
+}
+
+.add-text-btn {
+  cursor: pointer;
+  background-color: cornflowerblue;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+.text-input {
+  height: 30px;
+  width: 200px;
+}
